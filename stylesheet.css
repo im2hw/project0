@@ -1,0 +1,111 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+}
+#container{
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#container > .card{
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    width: 540px;
+}
+
+.c_img{
+    width: 280px;
+    height: 450px;
+}
+
+.c_img > img{
+    width: 280px;
+    height: 450px;
+    border-radius: 20px 0 0 20px;
+}
+
+.card > .index{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    vertical-align: center;
+    margin-left: 16px;
+}
+
+.title{
+    width: 140px;
+}
+
+.title > p{
+    font-size: 16px;
+    font-weight: 500px;
+    font-family: 'Montserrat';
+    letter-spacing: 8px;
+    color: hsl(228, 12%, 48%);
+    width: 140px;
+}
+
+.paragraph > h1{
+    font-size: 26px;
+    font-family: 'Fraunces';
+    font-weight: 700;
+    color: hsl(212, 21%, 14%);
+    line-height: 130%;
+}
+
+.explain > p{
+    text-align: left;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Montserrat';
+    color: hsl(228, 12%, 48%);
+}
+
+.price{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.price > .price1> p{
+    font-size: 26px;
+    font-weight: 700;
+    font-family: 'Fraunces';
+    color: hsl(158, 36%, 37%);
+}
+
+.price > .price2 > p{
+    font-size: 16px;
+    height: 32px;
+    text-decoration: line-through;
+    color: hsl(228, 12%, 48%);
+    line-height: 2;
+}
+
+.btn > .button{
+    width: 200px;
+    height: 42px;
+    background-color: hsl(158, 36%, 37%);
+    border-radius: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; 
+    justify-content: center;   
+}
+
+.button > p{
+    color: #fff;
+    line-height: 2.5;
+    font-size: 1em;
+    font-weight: bold;
+    font-family: 'Montserrat';
+    height: 42px;
+}
